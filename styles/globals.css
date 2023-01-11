@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+
+  font-family: "arial";
+  src: url("/public/fonts/arial.ttf");
+
+  font-family: "arialK";
+  src: url("/public/fonts/ARIBLK.ttf");
+
+  font-family: "iransans";
+  src: url("/public/fonts/IRANSansWeb.ttf");
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'IRANSansWeb';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
