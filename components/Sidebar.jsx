@@ -25,7 +25,7 @@ function Sidebar() {
                         <ActiveLink href='/'>
                             <li  className=" flex-1  ">
                               <div className="block py-1 md:py-3   pl-1 align-middle text-[#fff] 
-                               no-underline hover:bg-[#60724b]   border-b-2 border-[#94A3B8]
+                               no-underline hover:bg-[#335709]   border-b-2 border-[#94A3B8]
                                   md:border-[#94A3B8] hover:border-[#60724b00]">
                          
                                     <i className="pr-0 md:pr-3"></i>
