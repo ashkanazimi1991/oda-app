@@ -1,0 +1,42 @@
+
+> oda-app@0.1.0 start
+> next start -p 3002
+
+ready - started server on 0.0.0.0:3002, url: http://localhost:3002
+@@redux/INIT7.f.l.h.4
+@@redux/PROBE_UNKNOWN_ACTION8.5.a.o.1.8
+@@redux/INIT7.f.l.h.4
+persist/PERSIST
+persist/REHYDRATE
+TypeError: axiosInstance_default(...) is not a function
+    at getServerSideProps (/home/onlineceo/frontend/vetnow/vetnow-Front/.next/server/pages/adviser/resome.js:614:55)
+    at Object.renderToHTML (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/render.js:611:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async doRender (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:870:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:969:28)
+    at async /home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/response-cache.js:72:36
+TypeError: axiosInstance_default(...) is not a function
+    at getServerSideProps (/home/onlineceo/frontend/vetnow/vetnow-Front/.next/server/pages/adviser/resome.js:614:55)
+    at Object.renderToHTML (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/render.js:611:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async doRender (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:870:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:969:28)
+    at async /home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/response-cache.js:72:36
+TypeError: axiosInstance_default(...) is not a function
+    at getServerSideProps (/home/onlineceo/frontend/vetnow/vetnow-Front/.next/server/pages/adviser/resome.js:614:55)
+    at Object.renderToHTML (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/render.js:611:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async doRender (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:870:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:969:28)
+    at async /home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/response-cache.js:72:36
+TypeError: axiosInstance_default(...) is not a function
+    at getServerSideProps (/home/onlineceo/frontend/vetnow/vetnow-Front/.next/server/pages/adviser/resome.js:614:55)
+    at Object.renderToHTML (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/render.js:611:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async doRender (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:870:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/base-server.js:969:28)
+    at async /home/onlineceo/frontend/vetnow/vetnow-Front/node_modules/next/dist/server/response-cache.js:72:36
