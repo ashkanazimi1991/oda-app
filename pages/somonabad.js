@@ -15,7 +15,7 @@ import Image from 'next/image';
 
 export const Somonabad = () => {
   const images = [
-    "/images/somenabad1.jpg",
+    "/images/s1.jpg",
     "/images/somonabad2.jpg",
     "/images/somonabad3.jpg",
     "/images/somonabad4.jpg",

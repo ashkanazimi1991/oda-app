@@ -18,7 +18,7 @@ export const Honarjooyan = () => {
 
 
   const images = [
-    "/images/honarjoo1.jpg",
+    "/images/h1.jpg",
     "/images/honarjoo2.jpg",
     "/images/honarjoo3.jpg",
     "/images/honarjoo4.jpg",

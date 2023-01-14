@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Gallery from '../components/Gallery/Gallery';
-// import ScrollItem2 from '../components/scrollItem2/ScrollItem2'
+
 
 const Projects = () => {
 
@@ -14,7 +14,7 @@ const Projects = () => {
         btnlink:"/parvin"
       },
       {
-        img: '/images/somenabad1.jpg',
+        img: '/images/s1.jpg',
         title:" More Info",
         desc:"Somon Abad - Urmia",
         alt:"oda",
@@ -42,7 +42,7 @@ const Projects = () => {
           btnlink:"/savalan"
         },
         {
-          img: '/images/honarjoo1.jpg',
+          img: '/images/h1.jpg',
           title:" More Info",
           desc:"Honarjooyan - Urmia",
           alt:"oda",
@@ -94,7 +94,7 @@ const Projects = () => {
           {
             img: '/images/goroosh.jpg',
             title:" More Info",
-            desc:"Guroosh - Urmia.",
+            desc:"Görüsh - Urmia.",
             alt:"oda",
             btnlink:"/guroosh"
           },
