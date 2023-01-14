@@ -1,5 +1,5 @@
 
-> oda-app@0.1.0 start
+> oda-app@0.2.0 start
 > next start -p 3002
 
 ready - started server on 0.0.0.0:3002, url: http://localhost:3002

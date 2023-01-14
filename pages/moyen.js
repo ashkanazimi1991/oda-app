@@ -16,14 +16,15 @@ export const Moyen = () => {
     
   const images = [
     "/images/moeyin.jpg",
-    // "/images/pezeshkian2.jpg",
-    // "/images/pezeshkian3.jpg",
+    "/images/moeyin.jpg",
+
+   
    
 ];
 
 
 const zoomInProperties = {
-  indicators: true,
+  indicators: false,
   scale: 1.2,
   duration: 5000,
   arrows: false,

@@ -14,20 +14,19 @@ export const Khodkari = () => {
 
 
   const images = [
-    "/images/khodkari.jpg",
-    // "/images/pezeshkian2.jpg",
-    // "/images/pezeshkian3.jpg",
+    "/images/Khodkari1.jpg",
+    "/images/Khodkari1.jpg",
    
 ];
 
 
 const zoomInProperties = {
-  indicators: true,
+  indicators: false,
   scale: 1.2,
   duration: 5000,
   arrows: false,
   transitionDuration: 500,
-  infinite: true,
+  infinite: false,
   autoplay:false,
 };
 

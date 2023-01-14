@@ -18,19 +18,18 @@ export const Savalan = () => {
 
   const images = [
     "/images/savalan.jpg",
-    // "/images/pezeshkian2.jpg",
-    // "/images/pezeshkian3.jpg",
+    "/images/savalan.jpg",
    
 ];
 
 
 const zoomInProperties = {
-  indicators: true,
+  indicators: false,
   scale: 1.2,
   duration: 5000,
   arrows: false,
   transitionDuration: 500,
-  infinite: true,
+  infinite: false,
   autoplay:false,
 };
 

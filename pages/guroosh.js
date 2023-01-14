@@ -15,19 +15,18 @@ export const Guroosh = () => {
 
   const images = [
     "/images/goroosh.jpg",
-    // "/images/pezeshkian2.jpg",
-    // "/images/pezeshkian3.jpg",
+    "/images/goroosh.jpg",
    
 ];
 
 
 const zoomInProperties = {
-  indicators: true,
+  indicators: false,
   scale: 1.2,
   duration: 5000,
   arrows: false,
   transitionDuration: 500,
-  infinite: true,
+  infinite: false,
   autoplay:false,
 };
 

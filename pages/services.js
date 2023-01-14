@@ -56,7 +56,7 @@ const Services = () => {
                     bg-[#00000091] hover:shadow-[#60724b3a] hover:border-[#60724b]"  >
                         <h3 className="mt-4 text-xl  font-bold  text-white text-right">مطالعات</h3>
 
-                        <p className="mt-1   text-sm text-gray-500 font-[IRANSansWeb] leading-6 text-right">
+                        <p className="mt-1   text-sm text-gray-400 font-[IRANSansWeb] leading-6 text-right">
                         مطالعات فنی طرح و پروژه ، مطالعات استراتژی و اقلیمی، بررسی اقتصادی ، امکان سنجی و تحلیل سایت ، پیشنهاد طرح و سایت.
                         </p>
                     </a>
@@ -67,7 +67,7 @@ const Services = () => {
 
                         <h3 className="mt-4  text-xl  leading-6 text-right font-bold text-white">طراحی</h3>
 
-                        <p className="mt-1 text-sm  leading-6 text-right text-gray-500">
+                        <p className="mt-1 text-sm  leading-6 text-right text-gray-400">
                         ابنیه در تمامی کاربری های  مسکونی ، تجاری ، خدماتی و فرهنگی ، ورزشی ، محوطه و فضای سبز .
                         طراحی سازه های صنعتی و کشاورزی ، بناهای پیش ساخته و مدولار.
                         طراحی مبلمان و تجهیزات اداری مسکونی  و المان های شهری و محوطه .
@@ -80,7 +80,7 @@ const Services = () => {
                         
                         <h3 className="mt-4 text-xl font-bold font-[IRANSansWeb] leading-6 text-right text-white">نظارت</h3>
 
-                        <p className="mt-1 text-sm  leading-6 text-right text-gray-500">
+                        <p className="mt-1 text-sm  leading-6 text-right text-gray-400">
                         نظارت کیفی و فنی پروژه ، نظارت عالیه و کارگاهی ، بررسی متریال .
 
                         </p>
@@ -91,7 +91,7 @@ const Services = () => {
                        
                         <h3 className="mt-4 text-xl font-bold font-[IRANSansWeb] leading-6 text-right text-white">مدیریت اقتصادی</h3>
 
-                        <p className="mt-1 text-sm text-gray-500 font-[IRANSansWeb] leading-6 text-right">
+                        <p className="mt-1 text-sm text-gray-400 font-[IRANSansWeb] leading-6 text-right">
                         سرمایه گذاری و جذب سرمایه 
                         در پروژه های مسکونی ، تجاری ، صنعتی ،کشاورزی ، عمرانی ، معدن ، توریسم و ....
                         اخذ وام و اعتبارات بانکی بصورت ارزی و ریالی.
@@ -104,7 +104,7 @@ const Services = () => {
                         
                         <h3 className="mt-4 text-xl font-bold text-white font-[IRANSansWeb] leading-6 text-right">بازسازی و نوسازی</h3>
 
-                        <p className="mt-1 text-sm text-gray-500 font-[IRANSansWeb] leading-6 text-right">
+                        <p className="mt-1 text-sm text-gray-400 font-[IRANSansWeb] leading-6 text-right">
                         مرمت و باز سازی ، نوسازی و بهسازی ابنیه قدیمی و بافت فرسوده شهری .
 
                         </p>
@@ -115,7 +115,7 @@ const Services = () => {
                        
                         <h3 className="mt-4  text-xl font-bold text-white font-[IRANSansWeb] leading-6 text-right">مدیریت ساخت</h3>
 
-                        <p className="mt-1 text-sm text-gray-500 font-[IRANSansWeb] leading-6 text-right">
+                        <p className="mt-1 text-sm text-gray-400 font-[IRANSansWeb] leading-6 text-right">
                         مدیریت پروژه MC ، مدیریت پیمان ، مدیریت کیفیت و استراتژیک.
 
                         </p>
@@ -129,7 +129,7 @@ const Services = () => {
                        
                         <h3 className="mt-4 text-xl font-bold text-white font-[IRANSansWeb] leading-6 text-right">تاسیسات</h3>
 
-                        <p className="mt-1 text-sm text-gray-500 font-[IRANSansWeb] leading-6 text-right">
+                        <p className="mt-1 text-sm text-gray-400 font-[IRANSansWeb] leading-6 text-right">
                         طراحی و نظارت و اجرای تاسیسات مکانیکی و الکتریکی ابنیه و محوطه و هوشمند سازی پروژه.
 
                         </p>
@@ -140,7 +140,7 @@ const Services = () => {
                        
                         <h3 className="mt-4 text-xl font-bold text-white font-[IRANSansWeb] leading-6 text-right">برنامه نویسی</h3>
 
-                        <p className="mt-1 text-sm  leading-6 text-right text-gray-500">
+                        <p className="mt-1 text-sm  leading-6 text-right text-gray-400">
                         طراحی و برنامه نوسی پلتفرم ،
                          اپلیکیشن ، وب اپ ، اتوماسیون های یکپارچه و رباتیک ، هوشمند سازی بر پایه هوش مصنوعی و
                          اینترنت اشیا در صنعت ساختمان و سیستم های صنعتی ، آموزشی ، درمانی و پدافند و امداد.

@@ -16,18 +16,20 @@ export const Pashapoor = () => {
   const images = [
     
     "/images/pashapoor.jpg",
-    // "/images/pezeshkian3.jpg",
+    "/images/pashapoor.jpg",
+
+  
    
 ];
 
 
 const zoomInProperties = {
-  indicators: true,
+  indicators: false,
   scale: 1.2,
   duration: 5000,
   arrows: false,
   transitionDuration: 500,
-  // infinite: true,
+  infinite: false,
   autoplay:false,
 };
 
