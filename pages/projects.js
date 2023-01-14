@@ -14,7 +14,7 @@ const Projects = () => {
         btnlink:"/parvin"
       },
       {
-        img: '/images/Somen-Abad.jpg',
+        img: '/images/somenabad1.jpg',
         title:" More Info",
         desc:"Somon Abad - Urmia",
         alt:"oda",
@@ -42,7 +42,7 @@ const Projects = () => {
           btnlink:"/savalan"
         },
         {
-          img: '/images/Honarjoo.jpg',
+          img: '/images/honarjoo1.jpg',
           title:" More Info",
           desc:"Honarjooyan - Urmia",
           alt:"oda",
@@ -85,7 +85,7 @@ const Projects = () => {
             btnlink:"/amir"
           },
           {
-            img: '/images/Khodkari.jpg',
+            img: '/images/Khodkari1.jpg',
             title:" More Info",
             desc:"Khodkari - Chaloos.",
             alt:"oda",
