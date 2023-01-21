@@ -1,8 +1,7 @@
-// import ScrollItem from '../components/ScrollItems/ScrollItem';
 import Slider from '../components/Slider/Slider'
 import Head from 'next/head';
-import Info from '../components/Info/Info';
-// import Pano from '../components/pano';
+import Link from 'next/link';
+
 
 
 
@@ -10,7 +9,7 @@ import Info from '../components/Info/Info';
 export default function Home() {
 
   return(
-    // <Layout>
+    
 
 
 
@@ -26,12 +25,27 @@ export default function Home() {
 
   
   <Slider/>
-  <Info/>
+  <div className='bg-black md:pl-[20%] flex flex-col py-8 justify-center items-center'>
+     <h2 className="text-lg py-2 text-center  font-bold text-white ">
+        Welcome to ODA Architecture Company
+     </h2>
+     <p className=" text-lg  text-gray-300 md:mt-4 md:block">
+                            We build for you
+                            </p>
 
-{/* 
-  <Pano/> */}
-
-                                  
+                            <div className="mt-4 md:mt-8">
+                                 <Link href='/about'>
+                                    <a
+                                    className="inline-block px-12 py-3 text-lg  text-white 
+                                     rounded bg-[#60724b] hover:bg-emerald-700 "
+                                    >
+                                    Contact us Today
+                                    </a>
+                                
+                                </Link>
+                             </div>
+  </div>
+                                 
 
 
 </div>

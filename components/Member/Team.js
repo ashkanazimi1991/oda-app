@@ -30,10 +30,10 @@ const Team = () => {
                          group-hover:text-gray-300">CEO & Architectu</h2>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/keivanarc' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/keivanarc' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -49,10 +49,10 @@ const Team = () => {
                          group-hover:text-gray-300">Architectu</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/Ssaadat25' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/Ssaadat25' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -69,10 +69,10 @@ const Team = () => {
                          group-hover:text-gray-300">3D designer</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -88,10 +88,10 @@ const Team = () => {
                         <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Full stack developer</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -106,10 +106,10 @@ const Team = () => {
                         <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Graphic Designer</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -124,10 +124,10 @@ const Team = () => {
                         <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Project Managers</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -142,10 +142,10 @@ const Team = () => {
                         <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Engineer</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>
@@ -160,10 +160,10 @@ const Team = () => {
                         <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Architect</p>
                         
                         <div className="flex mt-3 -mx-2">
-                            <Link href='https://www.instagram.com/ashkanazimi.info' target='_blank'  aria-label='Instagram'>
+                            <Link href='https://www.instagram.com/ashkanazimi.info' passHref={true} target='_blank'  aria-label='Instagram'>
                               <FaInstagram className=' w-10 text-2xl text-[#fff] cursor-pointer'/> 
                             </Link>  
-                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' target='_blank'  aria-label='telegram'>
+                            <Link href='https://t.me/+ll4bLWoavUgyZTI0' passHref={true} target='_blank'  aria-label='telegram'>
                           <TbBrandTelegram className=' w-10 text-2xl text-[#fff] cursor-pointer '/> 
                         </Link>  
                         </div>

@@ -1,0 +1,23 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/amir": "pages/amir.html",
+  "/guroosh": "pages/guroosh.html",
+  "/honarjooyan": "pages/honarjooyan.html",
+  "/": "pages/index.html",
+  "/khodkari": "pages/khodkari.html",
+  "/malekpoor": "pages/malekpoor.html",
+  "/modiriat": "pages/modiriat.html",
+  "/negin": "pages/negin.html",
+  "/parvin": "pages/parvin.html",
+  "/pashapoor": "pages/pashapoor.html",
+  "/pezeshkian": "pages/pezeshkian.html",
+  "/projects": "pages/projects.html",
+  "/savalan": "pages/savalan.html",
+  "/services": "pages/services.html",
+  "/somonabad": "pages/somonabad.html",
+  "/moyen": "pages/moyen.html",
+  "/404": "pages/404.html"
+}
