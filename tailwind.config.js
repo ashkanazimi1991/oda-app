@@ -9,24 +9,21 @@ module.exports = {
         fontFamily: {
       'sans': ['IRANSansWeb' ],
     },
-        screens: {
-      
-      // '3xl': {'max': '2535px'},
-      // // => @media (max-width: 1535px) { ... }
-      // '2xl': {'max': '1535px'},
-      // // => @media (max-width: 1535px) { ... }
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
 
-      // 'xl': {'max': '1279px'},
-      // // => @media (max-width: 1279px) { ... }
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
 
-      // 'lg': {'max': '1160px'},
-      // // => @media (max-width: 1023px) { ... }
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
 
-      // 'md': {'max': '810px'},
-      // // => @media (max-width: 767px) { ... }
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
 
-      // 'sm': {'max': '480px'},
-      // // => @media (max-width: 639px) { ... }
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
     extend: {},
   },
