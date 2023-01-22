@@ -35,16 +35,14 @@ function Sidebar() {
                         <ActiveLink href='/projects'>
                             <li className=" flex-1">
                                 <div className="block py-1 md:py-3   pl-1 align-middle text-[#fff]  
-                               
                                     hover:bg-[#60724b] no-underline  border-b-2 border-[#94A3B8]
                                      md:border-[#94A3B8]   hover:border-[#60724b00]">
 
-                                    {/* <a  > */}
                                       <i className="pr-0 md:pr-3"></i>
                                       <span className="pb-1 md:pb-0 text-xs md:text-base text-[#fff] 
                                       hover:text-[#fff] md:text-[#fff] block md:inline-block
                                       tracking-wide font-[arial]">Projects</span>
-                                    {/* </a> */}
+                                   
                                 </div>
                             </li>
                         </ActiveLink>
@@ -70,7 +68,7 @@ function Sidebar() {
                                       <i className="pr-0 md:pr-3"></i>
                                       <span className="pb-1 md:pb-0 text-xs md:text-base text-[#fff] 
                                       hover:text-[#fff] md:text-[#fff] block md:inline-block
-                                      tracking-wide font-[arial]">About Us</span>
+                                      tracking-wide ">About Us</span>
                                 </div>
                             </li>
                         </ActiveLink>

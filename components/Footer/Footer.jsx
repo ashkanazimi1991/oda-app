@@ -13,25 +13,25 @@ const Footer = () => {
                     <div className="flex justify-around  w-full py-4  border-y-2 border-gray-500  items-center ">
                         <div>
                             <Link href='tel:+984433361050' passHref={true}>
-                                <a>
+                              
                                 <FiPhone className='text-lg text-[#60724b] transition hover:text-teal-700/75 '/> 
-                                </a>
+                              
                             </Link> 
                         </div>
                         
                          <div>
                              <Link href='https://www.instagram.com/oda.architect' passHref={true} target='_blank'  aria-label='Instagram'>
-                              <a>
+                           
                               <FaInstagram className=' w-10  text-2xl text-[#60724b] cursor-pointer'/> 
-                              </a>
+                          
                             </Link>
                          </div>
                                
                         <div>
                             <Link href='https://t.me/keivanarc' passHref={true} target='_blank'  aria-label='telegram'>
-                            <a>
+                         
                                 <TbBrandTelegram className=' text-2xl text-[#60724b] transition hover:text-teal-700/75  '/> 
-                            </a>
+                          
                             </Link>  
                         </div>
 

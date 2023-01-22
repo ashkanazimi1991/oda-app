@@ -4,8 +4,6 @@ import Link from 'next/link'
 const header = () => {
   return (
     <div>
-        <logo>
-
             <div className=' top-0 h-12 flex p-2 flex-row md:hidden items-center fixed  w-full bg-[#000000cc] z-50'>
               <div>
 
@@ -25,7 +23,7 @@ const header = () => {
 
               </div>
             </div>        
-        </logo>
+       
     </div>
   )
 }

@@ -35,12 +35,12 @@ export default function Home() {
 
                             <div className="mt-4 md:mt-8">
                                  <Link href='/about'>
-                                    <a
+                                    <h2
                                     className="inline-block px-12 py-3 text-lg  text-white 
                                      rounded bg-[#60724b] hover:bg-emerald-700 "
                                     >
                                     Contact us Today
-                                    </a>
+                                    </h2>
                                 
                                 </Link>
                              </div>
