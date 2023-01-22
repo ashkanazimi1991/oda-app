@@ -26,15 +26,15 @@ export default function Home() {
   
   {/* <Slider/> */}
 
-  <Image height='100' width='1200'
+  <Image height='2000' width='2000'
                 className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
-                src="/images/slider3.jpg"   alt="about oda" />
+                src="/images/hhh.jpg"   alt="about oda" />
   <div className='bg-[#00000075] md:pl-[20%] min-h-screen flex flex-col py-8 justify-center items-center'>
      <h2 className="text-lg py-2 xl:text-6xl text-center  font-bold text-white ">
         Welcome to ODA Architecture Company
      </h2>
-     <p className=" text-lg  text-gray-300 md:mt-4 md:block">
-                            We build for you
+     <p className=" text-lg xl:text-2xl text-gray-300 md:mt-4 md:block">
+                   we build smart and strong
                             </p>
 
                             <div className="mt-4 md:mt-8">
