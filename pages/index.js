@@ -1,7 +1,7 @@
 // import Slider from '../components/Slider/Slider'
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 
 
@@ -26,8 +26,11 @@ export default function Home() {
   
   {/* <Slider/> */}
 
-  <Image height='2000' width='2000'
+  {/* <Image height='2000' width='2000'
                 className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
+                src="/images/hhh.jpg"   alt="about oda" /> */}
+
+  <img        className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
                 src="/images/hhh.jpg"   alt="about oda" />
   <div className='bg-[#00000075] md:pl-[20%] min-h-screen flex flex-col py-8 justify-center items-center'>
      <h2 className="text-lg py-2 xl:text-6xl text-center  font-bold text-white ">
