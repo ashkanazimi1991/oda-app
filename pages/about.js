@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from "next/link"
 import Team from '../components/Member/Team';
-// import Image from 'next/image';
+import Image from 'next/image';
 import { FaInstagram } from 'react-icons/fa';
 import { TbBrandTelegram } from "react-icons/tb";
 import { HiOutlineMail } from "react-icons/hi";
@@ -22,11 +22,11 @@ const About = () => {
                 <link rel='manifest' href='/manifest.json' />
          </Head>
          <div className="flex flex-col bg-gradient-to-r from-black to-[#1414140a]  justify-center ">
-            <img  className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
-                src="/images/a7.jpg"   alt="about oda" />
-                  {/* <Image height='100' width='1200'
-                className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
+            {/* <img  className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
                 src="/images/a7.jpg"   alt="about oda" /> */}
+                  <Image height='100' width='1200'
+                className="fixed -z-10  object-cover  w-full h-screen opacity-100 "
+                src="/images/a7.jpg"   alt="about oda" />
                 <div className=" flex flex-col justify-center    ">
                     
 

@@ -1,4 +1,7 @@
 {
-  "pages": {},
+  "pages": {
+    "/amir": [],
+    "/parvin": []
+  },
   "app": {}
 }
