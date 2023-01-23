@@ -9,9 +9,9 @@ const Gallery = ({img, alt, title, desc , btnlink }) => {
             <div className="relative items-center justify-center ">
             <Link href={btnlink}>
                     <div className='absolute   cursor-pointer z-10 opacity-0 hover:opacity-100 
-                    ease-in-out duration-1000 bg-[#5e5e5fad]    w-full  h-full '>
-                      <p  className=' relative text-center z-20 text-xl   
-                          md:text-2xl pt-[40%]  text-[#f1f1f1] '>
+                    ease-in-out duration-100 bg-[#5e5e5fad]    w-full  h-full '>
+                      <p  className=' relative text-center z-20 text-sm  font-thin
+                          md:text-2xl pt-[40%]  text-[#f1f1f1de] '>
                         {desc}
                         </p>
                         <h1 className=' rounded  py-4 -mb-4 relative pt-[5%] w-full  text-center 

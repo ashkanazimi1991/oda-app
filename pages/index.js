@@ -34,10 +34,10 @@ export default function Home() {
                 src="/images/hhh.jpg"   alt="about oda" /> */}
   <div className='bg-[#00000075] md:pl-[20%] min-h-screen flex flex-col py-8 justify-center items-center'>
      <h2 className="text-lg py-2 xl:text-6xl text-center  font-bold text-white ">
-        Welcome to ODA Architecture Company
+     We build smart and strong
      </h2>
      <p className=" text-lg xl:text-2xl text-gray-300 md:mt-4 md:block">
-                   we build smart and strong
+     Welcome to ODA Architecture Company
                             </p>
 
                             <div className="mt-4 md:mt-8">

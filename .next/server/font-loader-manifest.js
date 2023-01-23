@@ -1,1 +1,4 @@
-self.__FONT_LOADER_MANIFEST={pages:{"/amir":[],"/parvin":[]},app:{}};
+self.__FONT_LOADER_MANIFEST={
+  "pages": {},
+  "app": {}
+}
