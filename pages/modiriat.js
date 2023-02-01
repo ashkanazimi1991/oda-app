@@ -17,20 +17,10 @@ import Image from 'next/image';
 export const Modiriat = () => {
 
   const images = [
-    "/images/modir1.jpg",
-    "/images/modir2.jpg",
-    "/images/modir3.jpg",
-    "/images/modir4.jpg",
-    "/images/modir5.jpg",
-    "/images/modir6.jpg",
-    "/images/modir7.jpg",
-    "/images/modir8.jpg",
-
-
-
-
-
-   
+    "/images/Erfan01.jpg",
+    "/images/Erfan02.jpg",
+    "/images/Erfan03.jpg",
+    "/images/Erfan04.jpg",   
 ];
 
 
@@ -42,14 +32,18 @@ const zoomInProperties = {
   transitionDuration: 500,
   infinite: true,
   autoplay:false,
+  pauseOnHover: true,
+  swipeToSlide: true,
+  lazyLoad: true,
+  initialSlide: 2,
 };
 
 
 
     const [showModel, setShowModal] = useState(false)
   return (
-    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white pt-12 
-    md:pt-0 min-h-screen '>
+    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white mt-14
+    min-h-screen '>
           <Link href='/projects'>
             <BsArrowLeft className='fixed md:left-[20%] left-0 top-10 z-20  p-2 
              rounded-full  my-4 ml-3  md:text-5xl text-4xl text-[#000]
@@ -57,11 +51,11 @@ const zoomInProperties = {
            </Link>
 
 
-           <div className=''>
+           <div className='max-h-screen'>
             <Zoom {...zoomInProperties}>
              {images.map((each, index) => (
               <div key={index} className="flex justify-center  ">
-              <Image height="2000" width="3000" alt='oda'
+              <Image height="800" width="800" alt='oda'
                 className=" px-10  object-contain    z-20 "
                 src={each}
               />
@@ -77,7 +71,7 @@ const zoomInProperties = {
 
         <div className='flex flex-row justify-around items-center w-3/4'>
                <div className=' py-5'>
-                <h1 className='text-black text-3xl '>modiriat</h1>
+                <h1 className='text-black text-3xl '>Erfan</h1>
              
                 
                </div>

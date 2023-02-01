@@ -14,7 +14,7 @@ function Sidebar() {
                <div className='hidden md:block pt-5'>
                  <img className=" w-0 md:w-32 lg:w-48   object-contain mx-auto overflow-visible
                   "src="/images/4.svg" alt="oda"/>
-                <h1 className='pt-10 text-white text-3xl font-[arial] font-bold underline'>Architect</h1>
+                <h1 className='pt-10 text-white text-3xl font-[arial] font-bold underline'>Architecture</h1>
                 <h2 className='pb-8  text-white bg-transparent font-[arial]   '> Company</h2>
                </div>
                 <ul className="list-reset flex flex-row md:flex-col z-20 text-center pt-3 lg:pt-[20%]  md:text-center">

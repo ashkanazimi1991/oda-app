@@ -15,13 +15,10 @@ import Image from 'next/image';
 
 export const Somonabad = () => {
   const images = [
-    "/images/s1.jpg",
-    "/images/somonabad2.jpg",
-    "/images/somonabad3.jpg",
-    "/images/somonabad4.jpg",
-
-
-   
+    "/images/Somunabad01.jpg",
+    "/images/Somunabad02.jpg",
+    "/images/Somunabad03.jpg",
+    "/images/Somunabad04.jpg",  
 ];
 
 
@@ -33,24 +30,29 @@ const zoomInProperties = {
   transitionDuration: 500,
   infinite: true,
   autoplay:false,
+  pauseOnHover: true,
+  swipeToSlide: true,
+  lazyLoad: true,
+  initialSlide: 2,
 };
 
 
-    const [showModel, setShowModal] = useState(false)
+    // const [showModel, setShowModal] = useState(false)
   return (
-    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white pt-12 
-    md:pt-0 min-h-screen '>
+    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white mt-14
+    min-h-screen '>
           <Link href='/projects'>
             <BsArrowLeft className='fixed md:left-[20%] left-0 top-10 z-20  p-2 
              rounded-full  my-4 ml-3  md:text-5xl text-4xl text-[#000]
              cursor-pointer'/>
            </Link>
         
-           <div className=''>
+        
+           <div className='max-h-screen'>
     <Zoom {...zoomInProperties}>
         {images.map((each, index) => (
           <div key={index} className="flex justify-center  ">
-              <Image height="2000" width="3000" alt='oda'
+              <Image height="800" width="800" alt='oda'
                 className=" px-10  object-contain    z-20 "
                 src={each}
               />

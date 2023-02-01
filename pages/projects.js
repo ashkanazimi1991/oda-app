@@ -7,14 +7,14 @@ const Projects = () => {
 
     const galleryData =[
       {
-        img: '/images/parvin1op.jpg',
+        img: '/images/Salimpour01T.jpg',
         title:" More Info",
         desc:"Parvin - Urmia",
         alt:"oda",
         btnlink:"/parvin"
       },
       {
-        img: '/images/s1op.jpg',
+        img: '/images/Somunabad01T.jpg',
         title:" More Info",
         desc:"Somon Abad - Urmia",
         alt:"oda",
@@ -28,9 +28,9 @@ const Projects = () => {
         btnlink:"/pezeshkian"
       },
         {
-          img: '/images/pashapoorop.jpg',
+          img: '/images/Baran01T.jpg',
           title:" More Info",
-          desc:"Pashapoor - Urmia", 
+          desc:"Baran - Urmia", 
           alt:"oda",
           btnlink:"/pashapoor"
         },
@@ -42,21 +42,28 @@ const Projects = () => {
           btnlink:"/savalan"
         },
         {
-          img: '/images/h1op.jpg',
+          img: '/images/Hajizadeh01T.jpg',
           title:" More Info",
-          desc:"Honarjooyan - Urmia",
+          desc:"Hajizadeh - Urmia",
           alt:"oda",
           btnlink:"/honarjooyan"
         },
         {
-            img: '/images/modiriatop.jpg',
+            img: '/images/Erfan03T.jpg',
             title:" More Info",
-            desc:" Modiriat - Urmia",
+            desc:" Erfan - Urmia",
             alt:"oda",
             btnlink:"/modiriat"
           },
+              {
+            img: '/images/Persian01T.jpg',
+            title:" More Info",
+            desc:" Persian - Urmia",
+            alt:"oda",
+            btnlink:"/persian"
+          },
           {
-            img: '/images/moeyinop.jpg',
+            img: '/images/Afrand01T.jpg',
             title:" More Info",
             desc:"Moeyin - Urmia",
             alt:"oda",

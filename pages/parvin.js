@@ -1,8 +1,8 @@
 import React ,{useState} from 'react';
-import Slider2 from '../components/pslider/Slider2';
 import { BsArrowLeft } from "react-icons/bs";
-import { BiCube } from "react-icons/bi";
 import Link from "next/link";
+// import Slider2 from '../components/pslider/Slider2';
+// import { BiCube } from "react-icons/bi";
 // import Model from '../components/Modal';
 // import React360Viewer from '../components/React360Viewer';
 
@@ -16,29 +16,17 @@ import Image from 'next/image';
 export const Parvin = () => {
 
   const images = [
-    "/images/parvin1.jpg",
-    "/images/parvin2.jpg",
-    "/images/parvin3.jpg",
-    "/images/parvin4.jpg",
-    "/images/parvin5.jpg",
-    "/images/parvin6.jpg",
-    "/images/parvin7.jpg",
-    "/images/parvin8.jpg",
-    "/images/parvin9.jpg",
-    "/images/parvin10.jpg",
-    "/images/parvin11.jpg",
-    "/images/parvin12.jpg",
-    "/images/parvin13.jpg",
-    
-
-
-
-
-
-
-
-
-
+    "/images/Salimpour01.jpg",
+    "/images/Salimpour02.jpg",
+    "/images/Salimpour03.jpg",
+    "/images/Salimpour04.jpg",
+    "/images/Salimpour05.jpg",
+    "/images/Salimpour06.jpg",
+    "/images/Salimpour07.jpg",
+    "/images/Salimpour08.jpg",
+    "/images/Salimpour09.jpg",
+    "/images/Salimpour10.jpg",
+    "/images/Salimpour11.jpg",
 ];
 
 
@@ -50,23 +38,27 @@ const zoomInProperties = {
   transitionDuration: 500,
   infinite: true,
   autoplay:false,
+  pauseOnHover: true,
+  swipeToSlide: true,
+  lazyLoad: true,
+  initialSlide: 2,
 };
 
     const [showModel, setShowModal] = useState(false)
   return (
-    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white pt-12 
-    md:pt-0 min-h-screen '>
+    <div className=' flex justify-center md:pl-[20%]  flex-col bg-white mt-14
+    min-h-screen '>
           <Link href='/projects'>
             <BsArrowLeft className='fixed md:left-[20%] left-0 top-10 z-20  p-2 
              rounded-full  my-4 ml-3  md:text-5xl text-4xl text-[#000]
              cursor-pointer'/>
            </Link>
         
-           <div className=''>
+           <div className='max-h-screen'>
     <Zoom {...zoomInProperties}>
         {images.map((each, index) => (
           <div key={index} className="flex justify-center  ">
-              <Image height="2000" width="3000" alt='oda'
+              <Image height="800" width="800" alt='oda'
                 className=" px-10  object-contain    z-20 "
                 src={each}
               />
