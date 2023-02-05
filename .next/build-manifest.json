@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/BO33RwwPa5NjoubrXVwI-/_buildManifest.js",
-    "static/BO33RwwPa5NjoubrXVwI-/_ssgManifest.js"
+    "static/oog-m23gB3yTJDXCFIY8M/_buildManifest.js",
+    "static/oog-m23gB3yTJDXCFIY8M/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -70,6 +70,28 @@
       "static/chunks/242-0d0a2d768326ebc1.js",
       "static/css/53fa15469dc309b1.css",
       "static/chunks/pages/honarjooyan-da6fc343e9e6f315.js"
+    ],
+    "/kaj": [
+      "static/chunks/webpack-ee7e63bc15b31913.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-19bc621d38313aef.js",
+      "static/chunks/0c428ae2-4da892a361ee0101.js",
+      "static/chunks/1a48c3c1-5072339a26f1990e.js",
+      "static/chunks/675-94783329a13d0d54.js",
+      "static/chunks/242-0d0a2d768326ebc1.js",
+      "static/css/53fa15469dc309b1.css",
+      "static/chunks/pages/kaj-b9e0a68cf788076d.js"
+    ],
+    "/kelarabad": [
+      "static/chunks/webpack-ee7e63bc15b31913.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-19bc621d38313aef.js",
+      "static/chunks/0c428ae2-4da892a361ee0101.js",
+      "static/chunks/1a48c3c1-5072339a26f1990e.js",
+      "static/chunks/675-94783329a13d0d54.js",
+      "static/chunks/242-0d0a2d768326ebc1.js",
+      "static/css/53fa15469dc309b1.css",
+      "static/chunks/pages/kelarabad-15b51ea62693980d.js"
     ],
     "/khodkari": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -172,7 +194,7 @@
       "static/chunks/framework-cda2f1305c3d9424.js",
       "static/chunks/main-19bc621d38313aef.js",
       "static/chunks/675-94783329a13d0d54.js",
-      "static/chunks/pages/projects-de0500d305aaad65.js"
+      "static/chunks/pages/projects-b1d2e197495479da.js"
     ],
     "/savalan": [
       "static/chunks/webpack-ee7e63bc15b31913.js",

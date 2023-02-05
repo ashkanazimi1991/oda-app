@@ -35,11 +35,25 @@ const Projects = () => {
           btnlink:"/pashapoor"
         },
         {
+          img: '/images/Kelarabad-pool02P.jpg',
+          title:" More Info",
+          desc:"Kelarabad - Urmia", 
+          alt:"oda",
+          btnlink:"/kelarabad"
+        },
+        {
           img: '/images/savalanop.jpg',
           title:" More Info",
           desc:" Savalan - Urmia",
           alt:"oda",
           btnlink:"/savalan"
+        },
+        {
+          img: '/images/kajP.jpg',
+          title:" More Info",
+          desc:" Kaj - Urmia",
+          alt:"oda",
+          btnlink:"/kaj"
         },
         {
           img: '/images/Hajizadeh01T.jpg',
@@ -104,6 +118,13 @@ const Projects = () => {
             desc:"Görüsh - Urmia.",
             alt:"oda",
             btnlink:"/guroosh"
+          },
+          {
+            img: '/images/gorooshop.jpg',
+            title:" More Info",
+            desc:"Pashapoor - Urmia.",
+            alt:"oda",
+            btnlink:"/pashapoor"
           },
 
 
