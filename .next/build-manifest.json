@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/oog-m23gB3yTJDXCFIY8M/_buildManifest.js",
-    "static/oog-m23gB3yTJDXCFIY8M/_ssgManifest.js"
+    "static/k9gBVlFFziZs7jGFa80FN/_buildManifest.js",
+    "static/k9gBVlFFziZs7jGFa80FN/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -48,6 +48,16 @@
       "static/chunks/373-7ecc596cae4c0bd1.js",
       "static/css/a710a2475585e1d2.css",
       "static/chunks/pages/amir-eb10771aed88eb29.js"
+    ],
+    "/baran": [
+      "static/chunks/webpack-ee7e63bc15b31913.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-19bc621d38313aef.js",
+      "static/chunks/0c428ae2-4da892a361ee0101.js",
+      "static/chunks/675-94783329a13d0d54.js",
+      "static/chunks/242-0d0a2d768326ebc1.js",
+      "static/css/53fa15469dc309b1.css",
+      "static/chunks/pages/baran-6cd25afc508a657e.js"
     ],
     "/guroosh": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -163,10 +173,11 @@
       "static/chunks/framework-cda2f1305c3d9424.js",
       "static/chunks/main-19bc621d38313aef.js",
       "static/chunks/0c428ae2-4da892a361ee0101.js",
+      "static/chunks/1a48c3c1-5072339a26f1990e.js",
       "static/chunks/675-94783329a13d0d54.js",
       "static/chunks/242-0d0a2d768326ebc1.js",
       "static/css/53fa15469dc309b1.css",
-      "static/chunks/pages/pashapoor-c46db864193fdd42.js"
+      "static/chunks/pages/pashapoor-9da60d5f39240497.js"
     ],
     "/persian": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -194,7 +205,7 @@
       "static/chunks/framework-cda2f1305c3d9424.js",
       "static/chunks/main-19bc621d38313aef.js",
       "static/chunks/675-94783329a13d0d54.js",
-      "static/chunks/pages/projects-b1d2e197495479da.js"
+      "static/chunks/pages/projects-dfdf6233e00a0303.js"
     ],
     "/savalan": [
       "static/chunks/webpack-ee7e63bc15b31913.js",

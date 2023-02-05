@@ -5,6 +5,7 @@
   "/about": "pages/about.html",
   "/amir": "pages/amir.html",
   "/api/hello": "pages/api/hello.js",
+  "/baran": "pages/baran.html",
   "/guroosh": "pages/guroosh.html",
   "/honarjooyan": "pages/honarjooyan.html",
   "/": "pages/index.html",

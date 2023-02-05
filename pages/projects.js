@@ -32,7 +32,7 @@ const Projects = () => {
           title:" More Info",
           desc:"Baran - Urmia", 
           alt:"oda",
-          btnlink:"/pashapoor"
+          btnlink:"/baran"
         },
         {
           img: '/images/Kelarabad-pool02P.jpg',
@@ -120,7 +120,7 @@ const Projects = () => {
             btnlink:"/guroosh"
           },
           {
-            img: '/images/gorooshop.jpg',
+            img: '/images/pashapoorP.jpg',
             title:" More Info",
             desc:"Pashapoor - Urmia.",
             alt:"oda",
